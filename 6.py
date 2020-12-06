@@ -26,8 +26,6 @@ for i in list:
             thisPerson.add(t)
         everyoneAnswers = everyoneAnswers.intersection(thisPerson)
 
-
-
 count += len(answers)
 countIntersection += len(everyoneAnswers)      
 print("Count for first part: " + str(count) + ".")
